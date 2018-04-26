@@ -1,0 +1,24 @@
+<html>
+<head>
+  <style>
+    body {
+      background: <%= page_color %>;
+    }
+  </style>
+</head>
+<body>
+<p>
+  Remaining guesses: <%= remaining_guesses %>
+</p>
+<form>
+  <input type='text' name='guess' />
+<br />
+  <input type='submit' value='Guess!' />
+</form>
+<p>
+  The guessed number <%= guessed_number %> is <%= response %>
+  <br />
+
+</p>
+</body>
+</html>
